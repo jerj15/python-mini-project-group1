@@ -48,5 +48,17 @@ def main():
        except ValueError:
            print("Invalid input. Please enter numbers.")
            continue
+
        if choice == '1':
-           print(
+           print(f"Result: {add(num1, num2)}")
+       elif choise == '2':
+           print(f"Result: {subtract(num1, num2)}")
+       elif chise == '3':
+           print(f"Result: {multiply(num1, num2)}")
+       elif choice == '4':
+            print(f"Result: {divide(num1, num2)}")
+
+
+if __name__ == "__name__":
+   main()
+
